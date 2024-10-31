@@ -1,0 +1,95 @@
+{
+  "0": {
+    "id": "1",
+    "title": "The Hobbit",
+    "description": "A fantasy novel by J.R.R. Tolkien.",
+    "price": 34,
+    "image": "/img/The Hobbit.jpg"
+  },
+  "1": {
+    "id": "2",
+    "title": "The Hitchhikers Guide to the Galaxy",
+    "description": "A comic scienceא fiction series by Douglas Adams.",
+    "price": 13.95,
+    "image": "/img/The Hitchhikers Guide to the Galaxy.jpg"
+  },
+  "2": {
+    "id": "3",
+    "title": "The Hobbit!",
+    "description": "A fantasy novel by J.R.R. Tolkien.",
+    "price": 34,
+    "image": "/img/The Hobbit.jpg"
+  },
+  "books": [
+    {
+      "id": "1",
+      "title": "The Hobbit",
+      "price": 34,
+      "image": "/img/The Hobbit.jpg",
+      "description": "A fantasy novel by J.R.R. Tolkien."
+    },
+    {
+      "id": "2",
+      "title": "The Hitchhikers Guide to the Galaxy",
+      "price": 13.95,
+      "image": "/img/The Hitchhikers Guide to the Galaxy.jpg",
+      "description": "A comic science fiction series by Douglas Adams."
+    },
+    {
+      "id": "3",
+      "title": "The Lord Of The Rings",
+      "price": 32.55,
+      "image": "/img/The Lord Of The Rings.jpg",
+      "description": "An epic high fantasy novel by J.R.R. Tolkien."
+    },
+    {
+      "id": "4",
+      "title": "The Catcher in the Rye",
+      "price": 4.55,
+      "image": "/img/The Catcher in the Rye.jpg",
+      "description": "A novel by J.D. Salinger."
+    },
+    {
+      "id": "6",
+      "title": "To Kill a Mockingbird",
+      "price": 18.99,
+      "image": "/img/To Kill a Mockingbird.jpg",
+      "description": "A novel by Harper Lee published in 1960."
+    },
+    {
+      "id": "10",
+      "title": "War and Peace",
+      "price": 25,
+      "image": "/img/War and Peace.jpg",
+      "description": "A historical novel by Leo Tolstoy."
+    },
+    {
+      "id": "12",
+      "title": "The Great Gatsby",
+      "price": 8.99,
+      "image": "/img/The Great Gatsby.jpg",
+      "description": "A novel by F. Scott Fitzgerald."
+    },
+    {
+      "id": "13",
+      "title": "The Brothers Karamazov",
+      "price": 14.5,
+      "image": "/img/The Brothers Karamazov.jpg",
+      "description": "A novel by Fyodor Dostoevsky."
+    },
+    {
+      "id": "17",
+      "title": "The Odyssey",
+      "price": 11.49,
+      "image": "/img/The Odyssey.jpg",
+      "description": "An ancient Greek epic poem attributed to Homer."
+    },
+    {
+      "id": "18",
+      "title": "The Divine Comedy",
+      "price": 19.99,
+      "image": "/img/The Divine Comedy.jpg",
+      "description": "An epic poem by Dante Alighieri."
+    }
+  ]
+}

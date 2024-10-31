@@ -1,39 +1,11 @@
 {
-  "0": {
-    "id": "1",
-    "title": "The Hobbit",
-    "description": "A fantasy novel by J.R.R. Tolkien.",
-    "price": 34,
-    "image": "/img/The Hobbit.jpg"
-  },
-  "1": {
-    "id": "2",
-    "title": "The Hitchhikers Guide to the Galaxy",
-    "description": "A comic scienceא fiction series by Douglas Adams.",
-    "price": 13.95,
-    "image": "/img/The Hitchhikers Guide to the Galaxy.jpg"
-  },
-  "2": {
-    "id": "3",
-    "title": "The Hobbit!",
-    "description": "A fantasy novel by J.R.R. Tolkien.",
-    "price": 34,
-    "image": "/img/The Hobbit.jpg"
-  },
   "books": [
     {
-      "id": "1",
-      "title": "The Hobbit",
-      "price": 34,
-      "image": "/img/The Hobbit.jpg",
-      "description": "A fantasy novel by J.R.R. Tolkien."
-    },
-    {
       "id": "2",
-      "title": "The Hitchhikers Guide to the Galaxy",
+      "title": "The Hitchhikers Guide to the Galaxy!",
+      "description": "A comic science fiction series by Douglas Adams.",
       "price": 13.95,
-      "image": "/img/The Hitchhikers Guide to the Galaxy.jpg",
-      "description": "A comic science fiction series by Douglas Adams."
+      "image": "/img/The Hitchhikers Guide to the Galaxy.jpg"
     },
     {
       "id": "3",
@@ -90,6 +62,13 @@
       "price": 19.99,
       "image": "/img/The Divine Comedy.jpg",
       "description": "An epic poem by Dante Alighieri."
+    },
+    {
+      "title": "4567",
+      "description": "ראטו",
+      "price": 6,
+      "image": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBwgHBgkIBwgKCgkLDRYPDQwMDRsUFRAWIB0iIiAdHx8kKDQsJCYxJx8fLT0tMTU3Ojo6Iys/RD84QzQ5OjcBCgoKDQwNGg8PGjclHyU3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3Nzc3N//AABEIAMAAzAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAQIDBAUGB//EAEYQAAIBAwEEBQgGCAILAAAAAAABAgMEEQUSITFBBhNRYYEUIjJxkaGx0RVCUmJywQcjM0RzgpPwNVQWJENjdIOSorLS4f/EABgBAQEBAQEAAAAAAAAAAAAAAAABAgME/8QAHhEBAQEBAAMBAQEBAAAAAAAAAAERAgMSITFBgSL/2gAMAwEAAhEDEQA/ANYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFx38O4l7H1dr+YCAAA4AtFQx5za8MlXjlwAAExWXvkorvyBAJkor0ZOXgQAALR2cPab7twFQAABbCUcqWX2YKgAAAAAAAAAAAAAAcwR3gSAAAQAAAAAAAAIYEgAACCQAAAAAAAAAAAAE43AQwiCQAJRDAgkhEgCHwLMrxYBbyxXgyUAAYAgkgtxAgZAAAAAAAALqk8Zm1Bdsif1UVvcpe4DGC/WQXCmsd7CnB7urXgwKxREnv7i0pLhGOO3mTGEGt82vACiC3sydU3+zlGXqZsx0zUNnaVhdb+H6qQGnwIOjT0LVqvo2Fb+dKPxNqj0S1ipxo04fiqL8sk9ouVxEiVhLL8D1FLoPfTWal1Qh3JOWTDddDtRh+yq0Kz7E3H4k9oY84xgz3dnc2NTq7yjKlPilJcfU+D8Ba2txeVeqtaM6k1xUeXrfI0mMGCM4PQU+iOqSxtOhDPJye73FK3RPVIZ2Y0qn4Z4+JPaH1xNzXeRwOk9A1em/OsKj71KL/MxVNL1CO+VjcZ7qbY2LjSZKZlna1aX7eEqfdOLTMclBei2+9ouohrsI/viWjLY4pNE9bv9GHsAogX6z7sPYTtp8aa8AMYMmaT7Y+9EdW3vjKLXrAo8t5bbfaRjfvJLRg2s8IgVSy8JZLSxFYW99pMnFLEOHOT5mNercBSpOEIudSajFcWzNb287mUY28XJy4NcDm9S9a1Wnp0W/JaMlO6kueN+z48D6JpVpTpxT2FDPoxSxhcjj35fW5HXnx7NrN0Z6OUqNWNe5UalVcMrdH1HrKi3mG1h1NGOfSZkknLe+ZiW36XJcU2VniTsrsI2X9UtDv80qKuJGMcDPghwING/wBOoalaTtriKaaey2vRfJo1NEsqVhplGlTScmtqc1xm+07NX9Va1qn2acn7jRto4tqa7Iob/F/VhgtjteFzRG+W7GEAezze/sC3vzI7PeXjTS4cTIovmApQ7ZPvPJa70Tp1a1WpYNQqel1b4Sz2dh7CLjEw3zlsxrRi/M3PluZm9WfYsm/HyO6o1LKr1V1Hq5p4Slzf5kJqW6XA930n02Op2dWjUah1sfNqR4xkuEj5zZ1p1YSp3EVG5oydOtH7y5+PE7ePye3ysd+P1+xsuLT3r1DBeMl6MluIlBx55j2o6sKbyW19ZgYAyZpR4bU/XuKSm5buXJIrhdhKQEeGTU1S/p2tssSxXqebTglnx8Daq1IUaU6tSWIQTcmcnQbeeq6lPVrqm+ooPFGD+tLl7PiZ769ZrfHO16nozplPT7WFLD62o+suJyeZZfBHttIoOtU6zDUFzaPP2lJUKea8oxSXWVZSeEl3s9nZTtqVvCMK9GW7Lamt54/2vRdxtKOOeX2jZa3xfga1fU9Ptk5XF/aUkudSvGPxZybjpx0Vtk+s1+weOVOr1j/7cnWWOV5tegjLO6SMuwjx1T9I/Rz93lf3f/D2NSWfakYo/pL0yMsfROvtdv0fIunrXttnD3cOzsMsIZR5G1/SX0Wqz2Lm8rWc84xeW86fvxg9VZXtpfUI3FjdUbii1lTozUk/YViyxXU440y7f+5n8GaVLdQglx2V4bjc1eWNLuMc47PtaRp0vMilLlzM39Xn8XjTf1t7Mqp44lalxb20du5r0qMftVJqK9rNGfSnQIS2fpqwT/jJ/Amxcrp7OOBKpyfHgaVtr2h1mo0tYsJyfJXMMvwydWDhOKlCSlF8HF5RfiYwqnGPIicNtSjLhLcbDSMc1gz1GpXDq03KlOlL0oPG/wBx8y6cWz0jV6GrU4vyW5aoXSS9GX1ZH1S+WxcU6r3Kp5kl38jzvSTS6OqWNxY3CTp14OOfsvk/WuJy569etdbNmPELdvztR5MtGbjwaOXos69J1tLv0/LLOXVyb+vFcGdLB75dmx5bMuMu1TfGLi/uvKG3TXCDl3uWDFv5Dzu4qJH94Bo6xdytLVKMlCpVeypv6u7iBpX7q6vfx02zbVKEv1049x6inVsNIs4VaslTtqK2aUeO3Lu955TRdRtrO0uKUXCnc1eNaom1js3f37TWrUZ3dbrK2tWknjCzW2ceB5fJb119ermTmOpedJLm+lUpuUYW1R4lDCe36/cc+oqKS6ulQ/lpJGSjZqK87V7Bt9tdfIzq0eP8V09L+Mvkc/VuVoLEGpQhRT7eqjn4GSNe4b8yrVS+5LHwNzySGN+tWKfdX/8AhHkFB/tNdsV/zmxIa1KkrmosTlXmvvSb+Jr+TvP7OPtR01pmnyf+O2Xtk/yLx0ezl6Ot2PjUaLlHOVS4oxw51ox7Jyey/B7jNpuoXGlXSudLuJWFxtZcqPoVPxw4New2novU05zpa1p+IpuShctPH5mO9trLFKFC/wBqrUjlSnTdOEvU3zE3S5n19X6N9L6fSXRa9C7jChqFHZdWEX5so7S8+Pd3PgeZ6T9Oq0ripaaLJRjHKlc4y3+H5ny+v0ho6XcVKdjKpXkoOE61KtsRaa3pbnn19xax1C2u4/6s50qkd86VWSbx3S5o31x1frlzeJcdavXrXNV1LmvOrU5ynLafvK4pv/aPHY0bEbClK3jXnqdhTUvq9bmXsRhlZUc4+k7dfyy+Rj1rpsY1CL4T9qJou5tZ7VpXqUZfao1HB+7BL06D3x1KhL1Qn8iHp81HMb6DX8Oa/InrTY6FLpN0kt0lR1e9WN2ZT2//ACyZV036WQ4atWf4qMP/AFOPKyrx4XFJvvTX5GCdCvHjXtl65Y/IuU/5dyXTjpI6sXXvuupp5dOVKKUvYkz6FofSSy6RWbhB7FzBZnQk/OWFxXauJ8ccZr0ri2/rChUubWvG4tr2jTqw9GcKu9Gbxq7Hsen1nOxv7XX7ZOSTVK5S+tHkxSnGpSjUpSUqclmLXBrka3+lML7RbnT9bnRqzqQ2Yzpri+TfJM5fRi66ujGyq1oylxh3LsPR4bZMrh5ef7HfAB3cQrUhGpDYqRjJPjtLOSwA0ZaPpsnl2Nv4U0ij0LTH+50/Bv5nRAyLtcz6A0vOfJn/AFZ/Mt9B6b/lY+MpfM6IBtc/6D0z/KQ9r+ZMdF0xPPkVJ+tZN8A2tJ6Ppj42Fv8A00UeiaY/3On4ZOgAbWlDSbKmnGNKSg+Metlj2ZMN3o9vVoqFKOyordDO5+06Yjve/HiMNryF9pKaxWt4ya3Zaw1/fc8HMXR91vNoW01Lty8e8+i9XPjjd9oo9ywTGvaX+ODo/Ryjb6eqOoJXE85Sb82Hcu86EdIsIpJW6wvvP5m8BkZ2tT6NsksKgv8AqfzC02zSx1O7sUmvzNsDDa1lYW6eYxmn/El8y3klLk6q9VaXzM4H+G1rRsaUZOSncJvi/KKm/wB4dhRaacrjDWGvKJ/M2QDa0nplu1hyr4zl/r5/MvR0+hR4dbLfnz6sms+rJtAuG0+AACAAAAAAAAAAAAAAQSAGSCcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//2Q==",
+      "id": "19"
     }
   ]
 }

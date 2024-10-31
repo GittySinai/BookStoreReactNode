@@ -54,17 +54,18 @@ app.put('/books/:id', (req, res) => {
             return res.status(404).send('Book not found');
         }
 
-        books[bookIndex] = { ...books[bookIndex], ...updatedBook };
+        books.books[bookIndex] = { ...books.books[bookIndex], ...updatedBook };
 
         writeBooksData(books, (writeErr) => {
             if (writeErr) {
                 console.error('Error writing data:', writeErr); 
                 return res.status(500).send('Error updating data');
             }
-            res.json(books[bookIndex]);
+            res.json(books.books[bookIndex]); 
         });
     });
 });
+
 
 app.delete('/books/:id', (req, res) => {
     const bookId = req.params.id;
